@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Rhein007.github.io</id>
-    <title>稷下不学宫</title>
-    <updated>2020-07-19T16:48:56.406Z</updated>
+    <title>缘分一道桥</title>
+    <updated>2020-07-19T17:18:00.787Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Rhein007.github.io"/>
     <link rel="self" href="https://Rhein007.github.io/atom.xml"/>
     <subtitle>我们都在阴沟里，但仍有人仰望星空。 </subtitle>
     <logo>https://Rhein007.github.io/images/avatar.png</logo>
     <icon>https://Rhein007.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, 稷下不学宫</rights>
+    <rights>All rights reserved 2020, 缘分一道桥</rights>
+    <entry>
+        <title type="html"><![CDATA[【王黄】谁叫你不喜欢猫]]></title>
+        <id>https://Rhein007.github.io/post/WHBF/</id>
+        <link href="https://Rhein007.github.io/post/WHBF/">
+        </link>
+        <updated>2020-07-19T17:08:36.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://Rhein007.github.io/post/hello-gridea/</id>
