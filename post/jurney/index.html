@@ -1,0 +1,169 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>USA的一些老图存档 | 缘分一道桥</title>
+<link rel="shortcut icon" href="https://Rhein007.github.io/favicon.ico?v=1672514844857">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://Rhein007.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="USA的一些老图存档 | 缘分一道桥 - Atom Feed" href="https://Rhein007.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="
+波浪谷/狼丘
+已经是几年前的照片了，不过波浪谷给我的震撼一辈子都忘不掉了。
+什么叫鬼斧神工，这就是最好的例子（之一）。
+
+San Francisco,The USA
+很宁静的港口一角，真是个宜居的城市。
+……其实我很想知道，如何在拥有华人..." />
+    <meta name="keywords" content="jurney" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://Rhein007.github.io">
+  <img class="avatar" src="https://Rhein007.github.io/images/avatar.png?v=1672514844857" alt="">
+  </a>
+  <h1 class="site-title">
+    缘分一道桥
+  </h1>
+  <p class="site-description">
+    我们都在阴沟里，但仍有人仰望星空。 
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="https://Rhein007.github.io/post/about" class="menu">
+          关于
+        </a>
+      
+    
+      
+        <a href="/post/product" class="menu">
+          产出索引
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              USA的一些老图存档
+            </h2>
+            <div class="post-info">
+              <span>
+                2013-06-14
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+                <a href="https://Rhein007.github.io/tag/rrNgpIsIx/" class="post-tag">
+                  # jurney
+                </a>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <figure data-type="image" tabindex="1"><img src="https://Rhein007.github.io/post-images/1599583652801.jpg" alt="" loading="lazy"></figure>
+<p>波浪谷/狼丘<br>
+已经是几年前的照片了，不过波浪谷给我的震撼一辈子都忘不掉了。<br>
+什么叫鬼斧神工，这就是最好的例子（之一）。</p>
+<figure data-type="image" tabindex="2"><img src="https://Rhein007.github.io/post-images/1599585621214.jpg" alt="" loading="lazy"></figure>
+<p>San Francisco,The USA<br>
+很宁静的港口一角，真是个宜居的城市。<br>
+……其实我很想知道，如何在拥有华人数量最多的城市保持这种宁静干净？</p>
+<figure data-type="image" tabindex="3"><img src="https://Rhein007.github.io/post-images/1599585703524.jpg" alt="" loading="lazy"></figure>
+<p>San Francisco,The USA<br>
+公园里的两只天鹅。<br>
+他们好像活得不错。<br>
+忽然就想起了广雅的猫……<br>
+希望幸存下来的猫咪们能活得更好。<br>
+放心好了，总有有良心的人在的。</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://Rhein007.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
